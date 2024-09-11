@@ -1,4 +1,4 @@
-# Customizable Data Processing Project
+# Customizable Data Processing Pipeline in Python
 
 This project contains a set of files for processing and managing structured data from various sources. While the example focuses on clinical trials, the system is designed to be flexible and can be adapted for any dictionary-like data, including sports statistics, retail inventory, financial data, and more.
 
