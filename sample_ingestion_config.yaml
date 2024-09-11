@@ -1,0 +1,11 @@
+TrialA:
+  data_file: /playground/sample_ingestion_data.yaml
+  cohorts: all
+TrialB:
+  data_file: /playground/sample_ingestion_data.yaml
+  cohorts: [A1, A4]
+  schedule: True
+TrialC:
+  data_file: /playground/sample_ingestion_data.yaml
+  cohorts: [A2, D]
+  schedule: False

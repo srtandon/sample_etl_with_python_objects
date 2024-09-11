@@ -1,0 +1,76 @@
+TrialA:
+  name: "Home Trial 1"
+  study: "A229"
+  cohorts:
+    A:
+      patient_count: 2
+      d: [1,5,10,15]
+      dose: 10
+    B:
+      patient_count: 9
+      d: [1,2,8,14]
+      dose: 10
+    C:
+      patient_count: 15
+      d: [1,5,10,15]
+      dose: 30
+    D:
+      patient_count: 10
+      d: [1,2,8,14]
+      dose: 30
+  schedule: 
+    cycle_length: 15
+    duration: 6
+  sources: ["lab", "pathology"]
+TrialB:
+  name: "Hospital Trial 1"
+  study: "A229"
+  cohorts:
+    A1:
+      patient_count: 8
+      d: [1,2,14]
+      dose: 50
+    A2:
+      patient_count: 10
+      d: [1,2,14]
+      dose: 100
+    A3:
+      patient_count: 4
+      d: [1,2,14]
+      dose: 75
+    A4:
+      patient_count: 12
+      d: [1,2,14]
+      dose: 25
+  schedule: 
+    cycle_length: 15
+    duration: 6
+  sources: ["lab", "hospital"]
+TrialC:
+  name: "Home Trial 2"
+  study: "A229"
+  cohorts:
+    A1:
+      patient_count: 2
+      d: [1,2,8,22,29]
+      dose: 10
+    A2:
+      patient_count: 3
+      d: [1,2,8,22,29]
+      dose: 10
+    B:
+      patient_count: 9
+      d: [1,2,8,22,29]
+      dose: 20
+    C:
+      patient_count: 15
+      d: [1,2,8,22,29]
+      dose: 30
+    D:
+      patient_count: 10
+      d: [1,2,8,22,29]
+      dose: 40
+  schedule: 
+    cycle_length: 30
+    duration: 12
+  sources: ["lab", "hospital"]
