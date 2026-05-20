@@ -1,0 +1,32 @@
+{
+  "_comment": "Sports feed v2. Semantically identical to sports_game.json but the API vendor reordered the nesting: 'league' is now nested inside 'region' instead of 'region' being a field inside 'league'. This is the exact nesting-order shift the user described. A versioned adapter (V1/V2) could handle this, but JsonFlattener + SchemaResolver is better: one resolver rule maps both 'league_region' (v1) and 'region_name' (v2) to the canonical 'region_name', and both 'league_name' (v1) and 'region_league_name' (v2) to 'league_name'. No new adapter class needed.",
+  "game_id": "G2024_NBA_001",
+  "sport": "basketball",
+  "status": "final",
+  "venue": "Staples Center",
+  "region": {
+    "name": "West",
+    "league": {
+      "name":   "NBA",
+      "season": "2024-25"
+    }
+  },
+  "home": {
+    "team":    "Lakers",
+    "score":   108,
+    "players": 12,
+    "fouls":   22
+  },
+  "away": {
+    "team":    "Celtics",
+    "score":   103,
+    "players": 12,
+    "fouls":   18
+  },
+  "periods": {
+    "1": { "home": { "score": 28, "fouls": 5 }, "away": { "score": 25, "fouls": 4 } },
+    "2": { "home": { "score": 26, "fouls": 6 }, "away": { "score": 27, "fouls": 5 } },
+    "3": { "home": { "score": 30, "fouls": 6 }, "away": { "score": 28, "fouls": 5 } },
+    "4": { "home": { "score": 24, "fouls": 5 }, "away": { "score": 23, "fouls": 4 } }
+  }
+}

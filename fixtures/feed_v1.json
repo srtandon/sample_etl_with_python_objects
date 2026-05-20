@@ -1,0 +1,13 @@
+{
+  "_comment": "V1 feed — flat shape. All keys at a single depth. This is the original vendor format.",
+  "name": "Hospital Trial 1",
+  "study": "A229",
+  "cohorts": {
+    "A1": { "patient_count": 8,  "d": [1, 2, 14], "dose": 50  },
+    "A2": { "patient_count": 10, "d": [1, 2, 14], "dose": 100 },
+    "A3": { "patient_count": 4,  "d": [1, 2, 14], "dose": 75  },
+    "A4": { "patient_count": 12, "d": [1, 2, 14], "dose": 25  }
+  },
+  "schedule": { "cycle_length": 15, "duration": 6 },
+  "sources": ["lab", "hospital"]
+}

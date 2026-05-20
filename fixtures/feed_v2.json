@@ -1,0 +1,17 @@
+{
+  "_comment": "V2 feed — nested structure with a repeated key name. The vendor wrapped the export in an outer 'trial' block, and then used 'trial' again for the inner study-data block. The key 'trial' now appears at two different levels with different meanings. A procedural script using data['trial']['cohorts'] would break here; the V2 adapter absorbs this chaos so processors see the same TrialRecord as always.",
+  "trial": {
+    "name": "Hospital Trial 1",
+    "sources": ["lab", "hospital"],
+    "schedule": { "cycle_length": 15, "duration": 6 },
+    "trial": {
+      "study": "A229",
+      "cohorts": {
+        "A1": { "patient_count": 8,  "d": [1, 2, 14], "dose": 50  },
+        "A2": { "patient_count": 10, "d": [1, 2, 14], "dose": 100 },
+        "A3": { "patient_count": 4,  "d": [1, 2, 14], "dose": 75  },
+        "A4": { "patient_count": 12, "d": [1, 2, 14], "dose": 25  }
+      }
+    }
+  }
+}

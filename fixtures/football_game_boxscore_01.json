@@ -1,0 +1,583 @@
+{
+    "id": "7391a8d0-6675-4305-92fc-dc65bb4dcd38",
+    "sr_id": "sr:match:67426020",
+    "status": "closed",
+    "clock": "00:00",
+    "quarter": 4,
+    "title": "Super Bowl LX",
+    "scheduled": "2026-02-08T23:30:00+00:00",
+    "attendance": 65326,
+    "entry_mode": "LDE",
+    "weather": {
+      "condition": "Clear",
+      "humidity": 55,
+      "temp": 72,
+      "wind": "SW 8mph"
+    },
+    "coin_toss": {
+      "home_team": "won",
+      "away_team": "lost",
+      "winner_choice": "defer"
+    },
+    "venue": {
+      "id": "d1f5d1f5-a1a1-4b4b-8c8c-2e2e2e2e2e2e",
+      "name": "Caesars Superdome",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "USA",
+      "zip": "70112",
+      "address": "1500 Sugar Bowl Drive",
+      "capacity": 73208,
+      "surface": "FieldTurf",
+      "roof_type": "Retractable"
+    },
+    "home": {
+      "id": "97354895-8c77-4fd4-a860-32e62ea7382b",
+      "name": "New England Patriots",
+      "alias": "NE",
+      "market": "New England",
+      "used_timeouts": 3,
+      "remaining_timeouts": 0,
+      "score": 13,
+      "scoring_by_period": [
+        { "period_sequence": 1, "points": 0 },
+        { "period_sequence": 2, "points": 0 },
+        { "period_sequence": 3, "points": 0 },
+        { "period_sequence": 4, "points": 13 }
+      ]
+    },
+    "away": {
+      "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a6",
+      "name": "Seattle Seahawks",
+      "alias": "SEA",
+      "market": "Seattle",
+      "used_timeouts": 1,
+      "remaining_timeouts": 2,
+      "score": 29,
+      "scoring_by_period": [
+        { "period_sequence": 1, "points": 3 },
+        { "period_sequence": 2, "points": 6 },
+        { "period_sequence": 3, "points": 3 },
+        { "period_sequence": 4, "points": 17 }
+      ]
+    },
+    "scoring_plays": [
+      {
+        "quarter": 1,
+        "clock": "12:02",
+        "description": "J.Myers 33 yard field goal attempt is good, Center-C.Stoll, Holder-M.Dickson.",
+        "home_points": 0,
+        "away_points": 3,
+        "scoring_team": "SEA",
+        "play_type": "field_goal"
+      },
+      {
+        "quarter": 2,
+        "clock": "11:20",
+        "description": "J.Myers 39 yard field goal attempt is good, Center-C.Stoll, Holder-M.Dickson.",
+        "home_points": 0,
+        "away_points": 6,
+        "scoring_team": "SEA",
+        "play_type": "field_goal"
+      },
+      {
+        "quarter": 2,
+        "clock": "00:16",
+        "description": "J.Myers 41 yard field goal attempt is good, Center-C.Stoll, Holder-M.Dickson.",
+        "home_points": 0,
+        "away_points": 9,
+        "scoring_team": "SEA",
+        "play_type": "field_goal"
+      },
+      {
+        "quarter": 3,
+        "clock": "9:17",
+        "description": "J.Myers 41 yard field goal attempt is good, Center-C.Stoll, Holder-M.Dickson.",
+        "home_points": 0,
+        "away_points": 12,
+        "scoring_team": "SEA",
+        "play_type": "field_goal"
+      },
+      {
+        "quarter": 4,
+        "clock": "13:29",
+        "description": "S.Darnold pass deep right complete. Catch made by A.Barner for 16 yards. TOUCHDOWN.",
+        "home_points": 0,
+        "away_points": 18,
+        "scoring_team": "SEA",
+        "play_type": "passing_touchdown"
+      },
+      {
+        "quarter": 4,
+        "clock": "13:24",
+        "description": "J.Myers extra point is good.",
+        "home_points": 0,
+        "away_points": 19,
+        "scoring_team": "SEA",
+        "play_type": "extra_point"
+      },
+      {
+        "quarter": 4,
+        "clock": "12:33",
+        "description": "D.Maye pass deep left complete. Catch made by M.Hollins for 35 yards. TOUCHDOWN.",
+        "home_points": 6,
+        "away_points": 19,
+        "scoring_team": "NE",
+        "play_type": "passing_touchdown"
+      },
+      {
+        "quarter": 4,
+        "clock": "12:27",
+        "description": "A.Borregales extra point is good.",
+        "home_points": 7,
+        "away_points": 19,
+        "scoring_team": "NE",
+        "play_type": "extra_point"
+      },
+      {
+        "quarter": 4,
+        "clock": "5:38",
+        "description": "J.Myers 26 yard field goal attempt is good, Center-C.Stoll, Holder-M.Dickson.",
+        "home_points": 7,
+        "away_points": 22,
+        "scoring_team": "SEA",
+        "play_type": "field_goal"
+      },
+      {
+        "quarter": 4,
+        "clock": "4:37",
+        "description": "D.Maye pass short right INTERCEPTED at NE 45 [D.Witherspoon]. Intercepted by U.Nwosu at NE 45. TOUCHDOWN.",
+        "home_points": 7,
+        "away_points": 28,
+        "scoring_team": "SEA",
+        "play_type": "interception_return_touchdown"
+      },
+      {
+        "quarter": 4,
+        "clock": "4:27",
+        "description": "J.Myers extra point is good.",
+        "home_points": 7,
+        "away_points": 29,
+        "scoring_team": "SEA",
+        "play_type": "extra_point"
+      },
+      {
+        "quarter": 4,
+        "clock": "2:28",
+        "description": "D.Maye pass short left complete. Catch made by R.Stevenson for 7 yards. TOUCHDOWN.",
+        "home_points": 13,
+        "away_points": 29,
+        "scoring_team": "NE",
+        "play_type": "passing_touchdown"
+      },
+      {
+        "quarter": 4,
+        "clock": "2:21",
+        "description": "TWO-POINT CONVERSION ATTEMPT. D.Maye steps back to pass. Pass incomplete short middle intended for H.Henry. TWO-POINT ATTEMPT FAILS.",
+        "home_points": 13,
+        "away_points": 29,
+        "scoring_team": null,
+        "play_type": "two_point_conversion_failed"
+      }
+    ],
+    "team_stats": {
+      "NE": {
+        "summary": {
+          "possession_time": "26:49",
+          "avg_gain": 4.9,
+          "safeties": 0,
+          "turnovers": 3,
+          "play_count": 67,
+          "rush_plays": 18,
+          "total_yards": 331,
+          "fumbles": 1,
+          "lost_fumbles": 1,
+          "penalties": 3,
+          "penalty_yards": 25,
+          "return_yards": 4
+        },
+        "first_downs": {
+          "total": 18,
+          "pass": 14,
+          "rush": 2,
+          "penalty": 2
+        },
+        "passing": {
+          "attempts": 43,
+          "completions": 27,
+          "cmp_pct": 62.791,
+          "yards": 295,
+          "net_yards": 252,
+          "avg_yards": 5.143,
+          "touchdowns": 2,
+          "interceptions": 2,
+          "sacks": 6,
+          "sack_yards": 43,
+          "longest": 35,
+          "longest_touchdown": 35,
+          "rating": 79.1,
+          "air_yards": 166,
+          "redzone_attempts": 2,
+          "first_downs": 14,
+          "throw_aways": 2,
+          "poor_throws": 10,
+          "defended_passes": 4,
+          "dropped_passes": 0,
+          "on_target_throws": 27,
+          "blitzes": 10,
+          "hurries": 9,
+          "knockdowns": 3,
+          "pocket_time": 117.324,
+          "avg_pocket_time": 2.728,
+          "batted_passes": 2
+        },
+        "rushing": {
+          "attempts": 18,
+          "yards": 79,
+          "avg_yards": 4.389,
+          "touchdowns": 0,
+          "longest": 16,
+          "tlost": 1,
+          "tlost_yards": -3,
+          "first_downs": 2,
+          "broken_tackles": 1,
+          "yards_after_contact": 24,
+          "redzone_attempts": 0,
+          "kneel_downs": 1,
+          "scrambles": 4
+        },
+        "receiving": {
+          "targets": 41,
+          "receptions": 27,
+          "yards": 295,
+          "avg_yards": 10.926,
+          "touchdowns": 2,
+          "longest": 35,
+          "longest_touchdown": 35,
+          "yards_after_catch": 129,
+          "air_yards": 166,
+          "first_downs": 14,
+          "broken_tackles": 3,
+          "redzone_targets": 2,
+          "dropped_passes": 0
+        },
+        "defense": {
+          "tackles": 42,
+          "assists": 19,
+          "combined": 61,
+          "sacks": 1.0,
+          "sack_yards": 8.0,
+          "interceptions": 0,
+          "passes_defended": 7,
+          "forced_fumbles": 0,
+          "fumble_recoveries": 0,
+          "qb_hits": 6,
+          "tloss": 7.0,
+          "tloss_yards": 26.0,
+          "safeties": 0,
+          "three_and_outs_forced": 4,
+          "fourth_down_stops": 0,
+          "def_targets": 36,
+          "def_comps": 19,
+          "blitzes": 41,
+          "hurries": 9,
+          "knockdowns": 4,
+          "missed_tackles": 11,
+          "batted_passes": 1
+        },
+        "field_goals": {
+          "attempts": 0,
+          "made": 0,
+          "missed": 0,
+          "blocked": 0,
+          "pct": 0.0,
+          "longest": null,
+          "yards": 0,
+          "avg_yards": 0.0,
+          "attempts_19": 0,
+          "attempts_29": 0,
+          "attempts_39": 0,
+          "attempts_49": 0,
+          "attempts_50": 0,
+          "made_19": 0,
+          "made_29": 0,
+          "made_39": 0,
+          "made_49": 0,
+          "made_50": 0
+        },
+        "punts": {
+          "attempts": 8,
+          "yards": 356,
+          "net_yards": 340,
+          "avg_yards": 44.5,
+          "avg_net_yards": 42.5,
+          "longest": 55,
+          "inside_20": 4,
+          "touchbacks": 0,
+          "blocked": 0,
+          "return_yards": 16,
+          "hang_time": 36.897,
+          "avg_hang_time": 4.612
+        },
+        "punt_returns": {
+          "number": 2,
+          "yards": 4,
+          "avg_yards": 2.0,
+          "longest": 4,
+          "touchdowns": 0,
+          "faircatches": 1
+        },
+        "kick_returns": {
+          "number": 5,
+          "yards": 141,
+          "avg_yards": 28.2,
+          "longest": 38,
+          "touchdowns": 0,
+          "faircatches": 0
+        },
+        "kickoffs": {
+          "number": 3,
+          "yards": 130,
+          "touchbacks": 1,
+          "return_yards": 20,
+          "inside_20": 0,
+          "endzone": 0,
+          "total_endzone": 1,
+          "out_of_bounds": 0,
+          "onside_attempts": 1,
+          "onside_successes": 0,
+          "squib_kicks": 0
+        },
+        "fumbles": {
+          "fumbles": 1,
+          "lost_fumbles": 1,
+          "forced_fumbles": 0,
+          "own_rec": 0,
+          "opp_rec": 0
+        },
+        "interceptions": {
+          "number": 0,
+          "returned": 0,
+          "return_yards": 0
+        },
+        "touchdowns": {
+          "total": 2,
+          "pass": 2,
+          "rush": 0,
+          "int_return": 0,
+          "kick_return": 0,
+          "punt_return": 0,
+          "fumble_return": 0,
+          "other": 0
+        },
+        "penalties": {
+          "penalties": 3,
+          "yards": 25,
+          "first_downs": 0
+        }
+      },
+      "SEA": {
+        "summary": {
+          "possession_time": "33:11",
+          "avg_gain": 4.7,
+          "safeties": 0,
+          "turnovers": 0,
+          "play_count": 71,
+          "rush_plays": 32,
+          "total_yards": 335,
+          "fumbles": 0,
+          "lost_fumbles": 0,
+          "penalties": 4,
+          "penalty_yards": 25,
+          "return_yards": 96
+        },
+        "first_downs": {
+          "total": 20,
+          "pass": 11,
+          "rush": 9,
+          "penalty": 0
+        },
+        "passing": {
+          "attempts": 38,
+          "completions": 19,
+          "cmp_pct": 50.0,
+          "yards": 202,
+          "net_yards": 194,
+          "avg_yards": 4.974,
+          "touchdowns": 1,
+          "interceptions": 0,
+          "sacks": 1,
+          "sack_yards": 8,
+          "longest": 23,
+          "longest_touchdown": 16,
+          "rating": 74.7,
+          "air_yards": 115,
+          "redzone_attempts": 5,
+          "first_downs": 11,
+          "throw_aways": 2,
+          "poor_throws": 8,
+          "defended_passes": 7,
+          "dropped_passes": 2,
+          "on_target_throws": 21,
+          "blitzes": 23,
+          "hurries": 9,
+          "knockdowns": 4,
+          "pocket_time": 91.876,
+          "avg_pocket_time": 2.418,
+          "batted_passes": 1
+        },
+        "rushing": {
+          "attempts": 32,
+          "yards": 141,
+          "avg_yards": 4.406,
+          "touchdowns": 0,
+          "longest": 30,
+          "tlost": 6,
+          "tlost_yards": -18,
+          "first_downs": 9,
+          "broken_tackles": 7,
+          "yards_after_contact": 73,
+          "redzone_attempts": 5,
+          "kneel_downs": 0,
+          "scrambles": 1
+        },
+        "receiving": {
+          "targets": 36,
+          "receptions": 19,
+          "yards": 202,
+          "avg_yards": 10.632,
+          "touchdowns": 1,
+          "longest": 23,
+          "longest_touchdown": 16,
+          "yards_after_catch": 87,
+          "air_yards": 115,
+          "first_downs": 11,
+          "broken_tackles": 3,
+          "redzone_targets": 4,
+          "dropped_passes": 2
+        },
+        "defense": {
+          "tackles": 42,
+          "assists": 12,
+          "combined": 54,
+          "sacks": 6.0,
+          "sack_yards": 43.0,
+          "interceptions": 2,
+          "passes_defended": 6,
+          "forced_fumbles": 1,
+          "fumble_recoveries": 1,
+          "qb_hits": 11,
+          "tloss": 8.0,
+          "tloss_yards": 41.0,
+          "safeties": 0,
+          "three_and_outs_forced": 5,
+          "fourth_down_stops": 0,
+          "def_targets": 41,
+          "def_comps": 27,
+          "blitzes": 13,
+          "hurries": 9,
+          "knockdowns": 3,
+          "missed_tackles": 5,
+          "batted_passes": 2
+        },
+        "field_goals": {
+          "attempts": 5,
+          "made": 5,
+          "missed": 0,
+          "blocked": 0,
+          "pct": 100.0,
+          "longest": 41,
+          "yards": 180,
+          "avg_yards": 36.0,
+          "attempts_19": 0,
+          "attempts_29": 1,
+          "attempts_39": 2,
+          "attempts_49": 2,
+          "attempts_50": 0,
+          "made_19": 0,
+          "made_29": 1,
+          "made_39": 2,
+          "made_49": 2,
+          "made_50": 0
+        },
+        "punts": {
+          "attempts": 7,
+          "yards": 335,
+          "net_yards": 331,
+          "avg_yards": 47.857,
+          "avg_net_yards": 47.286,
+          "longest": 55,
+          "inside_20": 3,
+          "touchbacks": 0,
+          "blocked": 0,
+          "return_yards": 4,
+          "hang_time": 30.501,
+          "avg_hang_time": 4.357
+        },
+        "punt_returns": {
+          "number": 2,
+          "yards": 16,
+          "avg_yards": 8.0,
+          "longest": 10,
+          "touchdowns": 0,
+          "faircatches": 6
+        },
+        "kick_returns": {
+          "number": 1,
+          "yards": 20,
+          "avg_yards": 20.0,
+          "longest": 20,
+          "touchdowns": 0,
+          "faircatches": 0
+        },
+        "kickoffs": {
+          "number": 8,
+          "yards": 502,
+          "touchbacks": 3,
+          "return_yards": 141,
+          "inside_20": 0,
+          "endzone": 2,
+          "total_endzone": 5,
+          "out_of_bounds": 0,
+          "onside_attempts": 0,
+          "onside_successes": 0,
+          "squib_kicks": 0
+        },
+        "fumbles": {
+          "fumbles": 0,
+          "lost_fumbles": 0,
+          "forced_fumbles": 1,
+          "own_rec": 0,
+          "opp_rec": 1
+        },
+        "interceptions": {
+          "number": 2,
+          "returned": 2,
+          "return_yards": 80
+        },
+        "touchdowns": {
+          "total": 2,
+          "pass": 1,
+          "rush": 0,
+          "int_return": 1,
+          "kick_return": 0,
+          "punt_return": 0,
+          "fumble_return": 0,
+          "other": 0
+        },
+        "penalties": {
+          "penalties": 4,
+          "yards": 25,
+          "first_downs": 2
+        }
+      }
+    },
+    "broadcasts": [
+      {
+        "network": "Fox",
+        "type": "national",
+        "locale": "US",
+        "channel": "Fox"
+      }
+    ]
+  }

@@ -1,0 +1,35 @@
+{
+  "_comment": "Sports feed v1. Keys like 'score', 'fouls', and 'players' appear at multiple depths — under top-level 'home'/'away' AND under 'periods.N.home'/'periods.N.away'. A procedural script parsing this must manually track which 'score' it is reading. JsonFlattener handles this automatically by carrying the parent-key stack: home.score becomes home_score, periods.1.home.score becomes periods_1_home_score.",
+  "game_id": "G2024_NBA_001",
+  "sport": "basketball",
+  "status": "final",
+  "league": {
+    "name": "NBA",
+    "region": "West",
+    "season": "2024-25"
+  },
+  "venue": "Staples Center",
+  "schedule": {
+  "game": { "id": "G2024_NBA_001", 
+            "points": {"home": 108, "away": 103},
+            "home": {
+            "name":    "Lakers",
+            "score":   108,
+            "players": 12,
+            "fouls":   22
+          },
+          "away": {
+            "name": "Celtics",
+            "score": 103,
+            "players": 12,
+            "fouls": 18
+          },
+          "periods": {
+            "1": { "home": { "score": 28, "fouls": 5 }, "away": { "score": 25, "fouls": 4 } },
+            "2": { "home": { "score": 26, "fouls": 6 }, "away": { "score": 27, "fouls": 5 } },
+            "3": { "home": { "score": 30, "fouls": 6 }, "away": { "score": 28, "fouls": 5 } },
+            "4": { "home": { "score": 24, "fouls": 5 }, "away": { "score": 23, "fouls": 4 } }
+          }
+        }
+      }
+    }

@@ -1,0 +1,246 @@
+{
+    "league": {
+      "id": "44f459b7-0e14-4ef2-ab1d-4b8d4aba72ef",
+      "name": "NHL",
+      "alias": "NHL"
+    },
+    "season": {
+      "id": "1d31e327-cf8c-4e26-8ebb-8d3c6f9c8b77",
+      "year": 2025,
+      "type": {
+        "code": "PST",
+        "name": "Postseason"
+      }
+    },
+    "games": [
+      {
+        "id": "9908b659-0ec8-4e44-8915-78df0becd18d",
+        "sr_id": "sr:match:70557984",
+        "status": "scheduled",
+        "title": "Game 1",
+        "coverage": "full",
+        "scheduled": "2026-05-21T00:00:00+00:00",
+        "home_team_broadcast": "ALT2",
+        "away_team_broadcast": "SCRIPPS",
+        "venue": {
+          "id": "e43bd1e7-54a5-4d70-b2c2-8b7f3f7a4c1a",
+          "name": "Ball Arena",
+          "city": "Denver",
+          "state": "CO",
+          "country": "USA",
+          "zip": "80204",
+          "address": "1000 Chopper Circle",
+          "capacity": 18007,
+          "surface": "Ice",
+          "roof_type": "Indoor"
+        },
+        "home": {
+          "id": "0d92cf8e-2042-4eba-8c6e-8a7e5c5c7d48",
+          "name": "Colorado Avalanche",
+          "alias": "COL",
+          "seed": 1,
+          "record": {
+            "wins": 8,
+            "losses": 1,
+            "overtime_losses": 0
+          }
+        },
+        "away": {
+          "id": "eb31d07a-4b24-43f8-b438-8ba1a67e5d21",
+          "name": "Vegas Golden Knights",
+          "alias": "VGK",
+          "seed": 4,
+          "record": {
+            "wins": 8,
+            "losses": 3,
+            "overtime_losses": 0
+          }
+        },
+        "playoff_round": {
+          "series_id": "7f3a88bd-5c29-4b1e-8abc-3d7e8f9c1b22",
+          "name": "Western Conference Finals",
+          "round": 3,
+          "game_number": 1,
+          "best_of": 7,
+          "series_record": {
+            "home_wins": 0,
+            "away_wins": 0
+          }
+        },
+        "win_probability": {
+          "home": 60.6,
+          "away": 39.4
+        },
+        "broadcasts": [
+          {
+            "network": "TNT",
+            "type": "national",
+            "locale": "US",
+            "channel": "TNT"
+          }
+        ]
+      },
+      {
+        "id": "71df99cc-69dd-42cb-aab2-7bbcceb01537",
+        "sr_id": "sr:match:70558006",
+        "status": "scheduled",
+        "title": "Game 1",
+        "coverage": "full",
+        "scheduled": "2026-05-22T00:00:00+00:00",
+        "home_team_broadcast": "BSSE",
+        "away_team_broadcast": "RDS",
+        "venue": {
+          "id": "3c7e5f9a-1b2d-4e6c-8f0a-2b4d6e8c0a22",
+          "name": "PNC Arena",
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA",
+          "zip": "27601",
+          "address": "1400 Edwards Mill Road",
+          "capacity": 19722,
+          "surface": "Ice",
+          "roof_type": "Indoor"
+        },
+        "home": {
+          "id": "c3b28af7-f9e2-4a1b-8c3d-5e7f9a1b3c5e",
+          "name": "Carolina Hurricanes",
+          "alias": "CAR",
+          "seed": 1,
+          "record": {
+            "wins": 8,
+            "losses": 0,
+            "overtime_losses": 0
+          }
+        },
+        "away": {
+          "id": "a4c6e8f0-2d4e-6a8c-0e2g-4f6h8j0l2n4p",
+          "name": "Montreal Canadiens",
+          "alias": "MTL",
+          "seed": 4,
+          "record": {
+            "wins": 8,
+            "losses": 6,
+            "overtime_losses": 0
+          }
+        },
+        "playoff_round": {
+          "series_id": "8a4b6c8d-0e2f-4a6b-8c0d-2e4f6a8b0c2e",
+          "name": "Eastern Conference Finals",
+          "round": 3,
+          "game_number": 1,
+          "best_of": 7,
+          "series_record": {
+            "home_wins": 0,
+            "away_wins": 0
+          }
+        },
+        "win_probability": {
+          "home": 63.7,
+          "away": 36.3
+        },
+        "broadcasts": [
+          {
+            "network": "ESPN",
+            "type": "national",
+            "locale": "US",
+            "channel": "ESPN"
+          }
+        ]
+      },
+      {
+        "id": "56e23205-c142-425c-8444-2832ce5df011",
+        "sr_id": "sr:match:70558184",
+        "status": "closed",
+        "title": "Game 7",
+        "coverage": "full",
+        "scheduled": "2026-05-18T23:30:00+00:00",
+        "attendance": 20105,
+        "home_team_broadcast": "RDS",
+        "away_team_broadcast": "MSG",
+        "venue": {
+          "id": "5d7e9f1b-3c5d-7e9f-1b3d-5e7f9b1d3f5h",
+          "name": "Bell Centre",
+          "city": "Montreal",
+          "state": "QC",
+          "country": "CAN",
+          "zip": "H3B 2S2",
+          "address": "1909 Avenue des Canadiens-de-Montréal",
+          "capacity": 21302,
+          "surface": "Ice",
+          "roof_type": "Indoor"
+        },
+        "home": {
+          "id": "a4c6e8f0-2d4e-6a8c-0e2g-4f6h8j0l2n4p",
+          "name": "Montreal Canadiens",
+          "alias": "MTL",
+          "seed": 4,
+          "record": {
+            "wins": 7,
+            "losses": 6,
+            "overtime_losses": 0
+          }
+        },
+        "away": {
+          "id": "b5d7f9a1-3e5g-7a9c-1e3g-5g7i9k1m3o5q",
+          "name": "Buffalo Sabres",
+          "alias": "BUF",
+          "seed": 2,
+          "record": {
+            "wins": 6,
+            "losses": 6,
+            "overtime_losses": 0
+          }
+        },
+        "scoring": {
+          "home_points": 3,
+          "away_points": 2,
+          "periods": [
+            {
+              "number": 1,
+              "type": "period",
+              "home_points": 1,
+              "away_points": 0
+            },
+            {
+              "number": 2,
+              "type": "period",
+              "home_points": 1,
+              "away_points": 1
+            },
+            {
+              "number": 3,
+              "type": "period",
+              "home_points": 1,
+              "away_points": 1
+            }
+          ]
+        },
+        "playoff_round": {
+          "series_id": "9b5c7d9e-1f3g-5b7c-9d1f-3g5h7i9j1k3m",
+          "name": "Eastern Conference Semifinals",
+          "round": 2,
+          "game_number": 7,
+          "best_of": 7,
+          "series_record": {
+            "home_wins": 3,
+            "away_wins": 3
+          }
+        },
+        "win_probability": null,
+        "broadcasts": [
+          {
+            "network": "TNT",
+            "type": "national",
+            "locale": "US",
+            "channel": "TNT"
+          },
+          {
+            "network": "RDS",
+            "type": "national",
+            "locale": "CA",
+            "channel": "RDS"
+          }
+        ]
+      }
+    ]
+  }
