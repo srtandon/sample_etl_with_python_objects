@@ -156,6 +156,7 @@ cython_debug/
 
 # Pipeline output (Parquet files written by DuckDBSink)
 output/
+docs/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
